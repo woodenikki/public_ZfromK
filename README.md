@@ -1,22 +1,30 @@
 ## Delete Z(oom) from K(altura)
 
-This is a script that deletes videos tagged with the
-zoom tag from SUU's instance of Kaltura. This is done in
-an effort to maintain compliance with certain legislation.
+This script was written for an organization that used 
+[Kaltura](https://developer.kaltura.com/api-docs/Overview) 
+to store a variety of recordings.
+To maintain compliance with certain legislation, all recordings
+that were migrated into Kaltura from 
+[Zoom](https://marketplace.zoom.us/docs/api-reference/zoom-api)
+were required to be deleted after the quarter. 
+
+
+>This script uses [Poetry](https://python-poetry.org/) for 
+virtual environment and dependency management.
 
 ### Installation:
 
 ```
-pip install -r requirements.txt
+poetry install
 ```
 
 ### Run:
 
 ```
-$ python -m src -s START -e END -p PATH --delete
+$ poetry run python src/main.py -s START -e END -p PATH --delete
 ```
 > Date format: MM-DD-YYYY
-> 
-> -p PATH not required for Version 2, since we are not downloading.
 
-WARNING: the --delete flag will enable deleting media.
+*Note: -p PATH not required for Version 2, since we are not downloading.*
+
+**WARNING:** the --delete flag will enable deleting media.

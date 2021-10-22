@@ -1,4 +1,4 @@
-Copyright (C) 2020 Jarad Dingman <jayrad.security@protonmail.com> 
+Copyright (C) 2020 Nikki Wood <woodenikki@gmail.com> 
 
 The MIT License (MIT)
 
