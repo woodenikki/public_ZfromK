@@ -1,0 +1,24 @@
+VERSION = bcolors.WARNING + "1.0.0" + bcolors.ENDC
+VERSION_NAME = bcolors.OKGREEN + "Audacious Aardvark" + bcolors.ENDC
+VERSION_ART = f"""
+       _.---._    /\\\\
+    ./'       "--`\\//
+  ./              o \\
+ /./\\  )______   \\__ \\
+./  / /\ \\   | \\ \\  \\ \\
+   / /  \\ \\  | |\\ \\  \\7
+    "     "    "  "        v{VERSION} {VERSION_NAME}
+"""
+
+
+VERSION = bcolors.WARNING + "2.0.0" + bcolors.ENDC
+VERSION_NAME = bcolors.OKGREEN + "Brazen Beaver" + bcolors.ENDC
+VERSION_ART = f"""
+              ___
+           .="   "=._.---.
+         ."         c ' Y'`p
+        /   ,       `.  w_/
+        |   '-.   /     /
+  _,..._|      )_-\ \_=.\\
+ `-....-'`------)))`=-'"`'"  v{VERSION} {VERSION_NAME}
+""
